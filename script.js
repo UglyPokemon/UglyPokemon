@@ -5,7 +5,6 @@ const baseUrl = "https://pokeapi.co/api/v2/pokemon/";
 // grab button from index.html
 const button = document.getElementById("getPokemon");
 
-
 app.init = () => {
   // add click event to the button 
   button.addEventListener('click', e => {
@@ -47,4 +46,4 @@ app.getApp = (pokemon) => {
     });
 };
 
-app.init();
+// app.init();
