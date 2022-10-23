@@ -55,7 +55,6 @@ app.getUglyPokemon = () => {
 }
 
 app.getApp = (pokemon) => {
-
   fetch(`${baseUrl}${pokemon}`)
     .then((res) => {
       console.log(res);
