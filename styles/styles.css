@@ -341,7 +341,7 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
 }
-.contentContainer .nameImageContainer #uglyName {
+.contentContainer .nameImageContainer .uglyNameTitle {
   text-transform: capitalize;
   font-family: "Bebas Neue", regular;
   color: red;
