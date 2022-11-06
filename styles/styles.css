@@ -440,23 +440,29 @@ button {
     margin-top: 0;
   }
 }
-/* Landscape phone to portrait tablet 768*768*/
+/* Landscape phone to portrait tablet 768*896*/
 @media (max-width: 768px) {
   body {
-    height: 190vh;
+    height: 170vh;
   }
   body .wrapper {
-    width: 100%;
+    width: 80%;
   }
   .instruction,
 .searchBar,
 .contentContainer,
 .randomUglyButton {
-    width: 80%;
+    width: 100%;
   }
   .searchBar,
 .randomUglyButton {
     margin: 0 auto;
+  }
+  .searchBar input {
+    width: 100%;
+  }
+  button {
+    width: 100%;
   }
   #uglyName {
     padding-top: 20px;
@@ -489,11 +495,10 @@ button {
 .randomUglyButton {
     margin: 0 auto;
   }
-  .searchBar input,
-.searchBar button {
-    width: 95%;
+  .searchBar input {
+    width: 100%;
   }
-  .randomUglyButton button {
-    width: 95%;
+  button {
+    width: 100%;
   }
 }
